@@ -1,0 +1,1 @@
+This React Native code snippet demonstrates an uncommon error related to asynchronous operations and state updates within a component. The problem arises when an asynchronous function updates the component's state, but the component has already unmounted due to navigation or other lifecycle events. This leads to the dreaded 'Cannot update an unmounted component' warning.
